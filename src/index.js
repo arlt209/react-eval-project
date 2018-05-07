@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import ApplicationNode from './ApplicationNode'
 import {unregister} from './services/registerServiceWorker'
 import store from './services/store'
+import 'bootstrap/dist/css/bootstrap.css'
 
 const render = (Component) => {
   ReactDOM.render(
