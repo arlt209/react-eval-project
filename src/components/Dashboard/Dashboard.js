@@ -131,7 +131,7 @@ export default class Dashboard extends Component {
           <div styleName='orange-container'>
             <div styleName='wrapper'>
               <div styleName='orange-inner-container'>
-                <div styleNanem='orange-text-container'>
+                <div styleName='orange-text-container'>
                   <div styleName='orange-text-bold'>{this.props.userData.followers} Followers </div>
                   <div styleName='orange-text-bold'>{this.props.userData.following} Following </div>
                   <div styleName='orange-text'>id:{this.props.userData.id}</div>
